@@ -1,4 +1,4 @@
-# hohoyu-skill
+# strategic-marketing-director
 
 战略营销总监决策系统 - 整合20+经典分析模型，提供「诊断→策略→执行→复盘」全链路工作流。
 
