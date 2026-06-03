@@ -1,75 +1,66 @@
 # hohoyu-skill
 
-营销理论全景图 - 一个系统化的营销知识框架技能。
+战略营销总监决策系统 - 整合20+经典分析模型，提供「诊断→策略→执行→复盘」全链路工作流。
 
 ## 项目简介
 
-本项目是一个营销理论全景图技能包，整合了经典营销理论与数字时代的新实践，帮助用户系统化理解和应用营销知识。
+本项目是一个战略营销总监技能包，为品牌营销决策提供结构化的分析框架和工作流程。
 
 ## 项目结构
 
 ```
 hohoyu-skill/
-├── SKILL.md              # 主技能文件（营销理论全景图核心内容）
-├── references/           # 参考资料
-│   ├── path1-theory-foundation.md      # 理论基础路径
-│   ├── path2-ogilvy-era.md             # 奥格威时代路径
-│   ├── path3-chinese-practice.md       # 中国实践路径
-│   ├── path4-cross-generation.md      # 跨代融合路径
-│   ├── consensus-and-divergence.md     # 共识与分歧
-│   ├── new-frameworks-supplement.md    # 新框架补充
-│   └── pengfang-supplement.md          # 彭芳补充
-├── resources/            # 实用工具
-│   ├── 4p-diagnosis-checklist.md       # 4P诊断清单
-│   ├── stp-strategy-worksheet.md       # STP策略工作表
-│   ├── brand-strategy-canvas.md        # 品牌策略画布
-│   ├── ip-launch-framework.md          # IP启动框架
-│   ├── seeding-campaign-planner.md     # 种草活动计划器
-│   └── copywriting-4step-template.md   # 文案四步模板
-├── examples/             # 案例研究
-│   ├── case-study-new-brand.md         # 新品牌案例
-│   ├── case-study-strategy.md          # 策略案例
-│   ├── case-study-copywriting.md       # 文案案例
-│   ├── case-study-seeding.md           # 种草案例
-│   └── case-study-ip.md                # IP案例
-└── scripts/              # 脚本工具
-    └── diagnose.sh                     # 诊断脚本
+├── SKILL.md                    # 主技能文件（战略营销总监核心内容）
+├── references/                 # 参考模型库
+│   ├── strategic-models.md     # 战略分析模型（五力/SWOT/PESTEL/BCG等）
+│   ├── thinking-models.md      # 思维方法模型（MECE/金字塔/六帽等）
+│   ├── brand-models.md         # 品牌定位模型（定位三角/Kapferer/Aaker等）
+│   ├── marketing-models.md     # 营销传播模型（4P/STP/AIDA/GTM等）
+│   ├── growth-models.md        # 用户增长模型（AARRR/AIPL/北极星等）
+│   ├── psychology-models.md    # 消费者心理模型（BJ Fogg/COM-B/Nudge等）
+│   ├── data-models.md          # 数据分析模型（RFM/HEART/NPS等）
+│   ├── operations-models.md    # 运营执行模型（PDCA/OKR/RACI等）
+│   └── sales-models.md         # 销售变现模型（销售漏斗/MEDDIC/定价等）
+├── evals/                      # 评估模块
+│   └── .gitkeep
+└── scripts/                    # 脚本工具
+    └── .gitkeep
 ```
 
-## 主要内容
+## 核心功能
 
-### 理论路径
-- **路径一**：理论基础（科特勒框架、STP、4P等）
-- **路径二**：奥格威时代（品牌形象、定位理论等）
-- **路径三**：中国实践（场景营销、IP营销、种草等）
-- **路径四**：跨代融合（经典理论在数字时代的应用）
+### 触发场景
 
-### 实用工具
-- 4P诊断清单
-- STP策略工作表
-- 品牌策略画布
-- IP启动框架
-- 种草活动计划器
-- 文案四步模板
+| 场景 | 调用模型 |
+|------|---------|
+| 市场分析、竞争分析 | 战略分析模型（五力/SWOT/PESTEL/BCG/安索夫/3C/蓝海） |
+| 问题拆解、决策分析 | 思维方法模型（MECE/金字塔/SCQA/六帽/5W2H/决策树） |
+| 品牌定位、品牌战略 | 品牌定位模型（定位三角/Kapferer/Aaker/价值主张/PMM） |
+| 营销策略、传播策略 | 营销传播模型（4P/STP/AIDA/PAS/GTM/ICP/SOSTAC/IMC） |
+| 用户增长、增长黑客 | 用户增长模型（AARRR/AIPL/AISAS/北极星/飞轮/Hook） |
+| 用户洞察、行为设计 | 消费者心理模型（BJ Fogg/COM-B/EAST/Nudge/KANO/CJM） |
+| 数据分析、效果评估 | 数据分析模型（RFM/HEART/NPS/LTV-CAC/A/B测试） |
+| 运营执行、项目管理 | 运营执行模型（PDCA/OKR/RACI/敏捷营销/SOP） |
+| 销售流程、定价策略 | 销售变现模型（销售漏斗/MEDDIC/定价/客户成功） |
 
-### 案例研究
-- 新品牌案例
-- 策略案例
-- 文案案例
-- 种草案例
-- IP案例
+### 工作流阶段
+
+```
+诊断 → 策略 → 执行 → 复盘
+```
 
 ## 使用方法
 
-1. 阅读 `SKILL.md` 了解完整的营销理论全景图
-2. 根据需要查阅 `references/` 目录下的参考资料
-3. 使用 `resources/` 目录下的工具进行实际应用
-4. 参考 `examples/` 目录下的案例进行学习
+1. 阅读 `SKILL.md` 了解完整的战略营销决策系统
+2. 根据需要查阅 `references/` 目录下的各类模型
+3. 结合实际业务场景应用相应模型
 
 ## 版本信息
 
-- 版本：v3.2
-- 更新日期：2026-05-25
+- 版本：v1.0.0
+- 作者：黄大虾
+- 创建日期：2026-04-24
+- 模型数量：50+心智模型，20+决策启发式
 
 ## 许可证
 
